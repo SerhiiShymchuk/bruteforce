@@ -11,7 +11,7 @@ function makeIncrementArr(nums, max) { //nums=[0,1,1] max=4
     const lastIndex = nums.length-1
     return function () {
         for (let i = lastIndex; i >= 0; i--) { //i=2
-            if (nums[i] < max) { 0 < 4
+            if (nums[i] < max) { //0 < 4
                 nums[i]++ 
                 break
             }
